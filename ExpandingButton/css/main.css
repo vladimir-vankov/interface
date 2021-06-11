@@ -1,0 +1,55 @@
+.add_ticket_site {
+	width: 100%;
+	text-align: right;
+	position: absolute;
+	/* right: 3%; */
+	bottom: 82%;
+}
+.btn_all.add_ticket {
+	border-radius: 25px;
+	width: 35px;
+    height: 35px;
+	position: relative;
+	background-color: #1e4f7e;
+	transition: width 0.5s, left 1s;
+}
+.btn_all.add_ticket img {
+    width: 35px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+	transition:left 1s;
+}
+.btn_all.add_ticket span {
+	opacity: 0;
+	visibility: hidden;
+	width: 160px;
+	text-align: left;
+	position: absolute;
+	transition: visibility 0s, opacity 1.8s;
+}
+.btn_all.add_ticket:hover {
+	width: 200px;
+}
+.btn_all.add_ticket:hover img{
+	left: 5px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.btn_all.add_ticket:hover span {
+    font-weight: bold;
+    left: 27%;
+    position: absolute;
+    top: 8px;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+	visibility: visible;
+	opacity: 1;
+}
